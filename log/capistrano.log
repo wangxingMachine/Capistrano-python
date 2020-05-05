@@ -1,0 +1,518 @@
+# Logfile created on 2020-05-03 16:15:40 +0800 by logger.rb/v1.4.2
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-05-03 16:15:40 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a2abfd67] Running /usr/bin/env mkdir -p /tmp as deployer@192.168.127.131
+ DEBUG [a2abfd67] Command: /usr/bin/env mkdir -p /tmp
+  INFO [a2abfd67] Finished in 2.636 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cap_python-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cap_python-production-root.sh 100.0%
+  INFO [dbc6f7ea] Running /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh as deployer@192.168.127.131
+ DEBUG [dbc6f7ea] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh
+  INFO [dbc6f7ea] Finished in 0.160 seconds with exit status 0 (successful).
+  INFO [19e342af] Running /usr/bin/env git ls-remote git@https://github.com/wangxingMachine/Capistrano-python HEAD as deployer@192.168.127.131
+ DEBUG [19e342af] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git ls-remote git@https://github.com/wangxingMachine/Capistrano-python HEAD )
+ DEBUG [19e342af] 	fatal: I don't handle protocol 'git@https'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-05-03 16:16:56 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8e040576] Running /usr/bin/env mkdir -p /tmp as deployer@192.168.127.131
+ DEBUG [8e040576] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8e040576] Finished in 4.672 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cap_python-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cap_python-production-root.sh 100.0%
+  INFO [0db6af24] Running /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh as deployer@192.168.127.131
+ DEBUG [0db6af24] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh
+  INFO [0db6af24] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [04c18d14] Running /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD as deployer@192.168.127.131
+ DEBUG [04c18d14] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD )
+ DEBUG [04c18d14] 	12ff90942c080c14eeea582ffe8d17706ddfd060	HEAD
+  INFO [04c18d14] Finished in 5.056 seconds with exit status 0 (successful).
+  INFO [18ef8895] Running /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [18ef8895] Command: /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases
+ DEBUG [18ef8895] 	mkdir: 无法创建目录"/var/www/cap_python/shared": 权限不够
+mkdir: 无法创建目录"/var/www/cap_python/releases": 权限不够
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-05-03 16:31:42 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8b18a0dc] Running /usr/bin/env mkdir -p /tmp as deployer@192.168.127.131
+ DEBUG [8b18a0dc] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8b18a0dc] Finished in 1.163 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cap_python-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cap_python-production-root.sh 100.0%
+  INFO [aa5d4f28] Running /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh as deployer@192.168.127.131
+ DEBUG [aa5d4f28] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh
+  INFO [aa5d4f28] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [3d3f3fb0] Running /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD as deployer@192.168.127.131
+ DEBUG [3d3f3fb0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD )
+ DEBUG [3d3f3fb0] 	12ff90942c080c14eeea582ffe8d17706ddfd060	HEAD
+  INFO [3d3f3fb0] Finished in 3.187 seconds with exit status 0 (successful).
+  INFO [6d64580f] Running /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [6d64580f] Command: /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases
+ DEBUG [6d64580f] 	mkdir: 无法创建目录"/var/www/cap_python/shared": 权限不够
+mkdir: 无法创建目录"/var/www/cap_python/releases": 权限不够
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-05-03 16:32:46 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [d8b1e8a7] Running /usr/bin/env mkdir -p /tmp as deployer@192.168.127.131
+ DEBUG [d8b1e8a7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d8b1e8a7] Finished in 7.737 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cap_python-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cap_python-production-root.sh 100.0%
+  INFO [2e88223f] Running /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh as deployer@192.168.127.131
+ DEBUG [2e88223f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh
+  INFO [2e88223f] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [140c0bc7] Running /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD as deployer@192.168.127.131
+ DEBUG [140c0bc7] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD )
+ DEBUG [140c0bc7] 	12ff90942c080c14eeea582ffe8d17706ddfd060	HEAD
+  INFO [140c0bc7] Finished in 2.656 seconds with exit status 0 (successful).
+  INFO [77bc5571] Running /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [77bc5571] Command: /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases
+  INFO [77bc5571] Finished in 0.736 seconds with exit status 0 (successful).
+ DEBUG [07a92eaa] Running [ -f /var/www/cap_python/current/REVISION ] as deployer@192.168.127.131
+ DEBUG [07a92eaa] Command: [ -f /var/www/cap_python/current/REVISION ]
+ DEBUG [07a92eaa] Finished in 0.048 seconds with exit status 1 (failed).
+ DEBUG [2ecfc060] Running [ -f /var/www/cap_python/repo/HEAD ] as deployer@192.168.127.131
+ DEBUG [2ecfc060] Command: [ -f /var/www/cap_python/repo/HEAD ]
+ DEBUG [2ecfc060] Finished in 0.042 seconds with exit status 1 (failed).
+ DEBUG [d1db2fc2] Running if test ! -d /var/www/cap_python; then echo "Directory does not exist '/var/www/cap_python'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [d1db2fc2] Command: if test ! -d /var/www/cap_python; then echo "Directory does not exist '/var/www/cap_python'" 1>&2; false; fi
+ DEBUG [d1db2fc2] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [c23be680] Running /usr/bin/env git clone --mirror https://github.com/wangxingMachine/Capistrano-python /var/www/cap_python/repo as deployer@192.168.127.131
+ DEBUG [c23be680] Command: cd /var/www/cap_python && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git clone --mirror https://github.com/wangxingMachine/Capistrano-python /var/www/cap_python/repo )
+ DEBUG [c23be680] 	克隆到纯仓库 '/var/www/cap_python/repo'...
+ DEBUG [c23be680] 	remote: Enumerating objects: 6, done.[K
+remote: Counting objects:  16% (1/6)[Kremote: Counting objects:  33% (2/6)[Kremote: Counting objects:  50% (3/6)[Kremote: Counting objects:  66% (4/6)[Kremote: Counting objects:  83% (5/6)[Kremote: Counting objects: 100% (6/6)[Kremote: Counting objects: 100% (6/6), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0[K
+ DEBUG [c23be680] 	Unpacking objects:  16% (1/6)   
+ DEBUG [c23be680] 	Unpacking objects:  33% (2/6)   
+ DEBUG [c23be680] 	Unpacking objects:  50% (3/6)   
+ DEBUG [c23be680] 	Unpacking objects:  66% (4/6)   
+ DEBUG [c23be680] 	Unpacking objects:  83% (5/6)   
+ DEBUG [c23be680] 	Unpacking objects: 100% (6/6)   
+ DEBUG [c23be680] 	Unpacking objects: 100% (6/6), done.
+ DEBUG [c23be680] 	
+ DEBUG [c23be680] 	检查连接... 
+ DEBUG [c23be680] 	完成。
+  INFO [c23be680] Finished in 7.727 seconds with exit status 0 (successful).
+ DEBUG [55ea4a9f] Running if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [55ea4a9f] Command: if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi
+ DEBUG [55ea4a9f] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [7c23d895] Running /usr/bin/env git remote set-url origin https://github.com/wangxingMachine/Capistrano-python as deployer@192.168.127.131
+ DEBUG [7c23d895] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git remote set-url origin https://github.com/wangxingMachine/Capistrano-python )
+  INFO [7c23d895] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [334cfe5e] Running /usr/bin/env git remote update --prune as deployer@192.168.127.131
+ DEBUG [334cfe5e] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [334cfe5e] 	正在获取 origin
+ DEBUG [334cfe5e] 	
+  INFO [334cfe5e] Finished in 4.380 seconds with exit status 0 (successful).
+ DEBUG [a234545e] Running if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [a234545e] Command: if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi
+ DEBUG [a234545e] Finished in 1.619 seconds with exit status 0 (successful).
+  INFO [56773ab6] Running /usr/bin/env mkdir -p /var/www/cap_python/releases/20200503083257 as deployer@192.168.127.131
+ DEBUG [56773ab6] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env mkdir -p /var/www/cap_python/releases/20200503083257 )
+  INFO [56773ab6] Finished in 17.435 seconds with exit status 0 (successful).
+  INFO [67242220] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/cap_python/releases/20200503083257 as deployer@192.168.127.131
+ DEBUG [67242220] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/cap_python/releases/20200503083257 )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-05-03 16:36:14 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [02c03a3e] Running /usr/bin/env mkdir -p /tmp as deployer@192.168.127.131
+ DEBUG [02c03a3e] Command: /usr/bin/env mkdir -p /tmp
+  INFO [02c03a3e] Finished in 3.831 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cap_python-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cap_python-production-root.sh 100.0%
+  INFO [72c23ab7] Running /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh as deployer@192.168.127.131
+ DEBUG [72c23ab7] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh
+  INFO [72c23ab7] Finished in 0.330 seconds with exit status 0 (successful).
+  INFO [9970b629] Running /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD as deployer@192.168.127.131
+ DEBUG [9970b629] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD )
+ DEBUG [9970b629] 	12ff90942c080c14eeea582ffe8d17706ddfd060	HEAD
+  INFO [9970b629] Finished in 3.156 seconds with exit status 0 (successful).
+  INFO [8f57a8ae] Running /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [8f57a8ae] Command: /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases
+  INFO [8f57a8ae] Finished in 0.604 seconds with exit status 0 (successful).
+ DEBUG [8e717548] Running [ -f /var/www/cap_python/current/REVISION ] as deployer@192.168.127.131
+ DEBUG [8e717548] Command: [ -f /var/www/cap_python/current/REVISION ]
+ DEBUG [8e717548] Finished in 0.117 seconds with exit status 1 (failed).
+ DEBUG [50374766] Running [ -f /var/www/cap_python/repo/HEAD ] as deployer@192.168.127.131
+ DEBUG [50374766] Command: [ -f /var/www/cap_python/repo/HEAD ]
+ DEBUG [50374766] Finished in 0.121 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/cap_python/repo
+ DEBUG [a0ff6863] Running if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [a0ff6863] Command: if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi
+ DEBUG [a0ff6863] Finished in 0.829 seconds with exit status 0 (successful).
+  INFO [5dd9c685] Running /usr/bin/env git remote set-url origin https://github.com/wangxingMachine/Capistrano-python as deployer@192.168.127.131
+ DEBUG [5dd9c685] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git remote set-url origin https://github.com/wangxingMachine/Capistrano-python )
+  INFO [5dd9c685] Finished in 0.439 seconds with exit status 0 (successful).
+  INFO [c0ef8691] Running /usr/bin/env git remote update --prune as deployer@192.168.127.131
+ DEBUG [c0ef8691] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [c0ef8691] 	正在获取 origin
+ DEBUG [c0ef8691] 	
+  INFO [c0ef8691] Finished in 2.062 seconds with exit status 0 (successful).
+ DEBUG [daa0e36b] Running if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [daa0e36b] Command: if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi
+ DEBUG [daa0e36b] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [61284304] Running /usr/bin/env mkdir -p /var/www/cap_python/releases/20200503083622 as deployer@192.168.127.131
+ DEBUG [61284304] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env mkdir -p /var/www/cap_python/releases/20200503083622 )
+  INFO [61284304] Finished in 0.098 seconds with exit status 0 (successful).
+  INFO [f4034c04] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/cap_python/releases/20200503083622 as deployer@192.168.127.131
+ DEBUG [f4034c04] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/cap_python/releases/20200503083622 )
+  INFO [f4034c04] Finished in 0.697 seconds with exit status 0 (successful).
+ DEBUG [9305fecc] Running if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [9305fecc] Command: if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi
+ DEBUG [9305fecc] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [96d506ac] Running /usr/bin/env git rev-list --max-count=1 master as deployer@192.168.127.131
+ DEBUG [96d506ac] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [96d506ac] 	12ff90942c080c14eeea582ffe8d17706ddfd060
+ DEBUG [96d506ac] Finished in 0.241 seconds with exit status 0 (successful).
+ DEBUG [8807a666] Running if test ! -d /var/www/cap_python/releases/20200503083622; then echo "Directory does not exist '/var/www/cap_python/releases/20200503083622'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [8807a666] Command: if test ! -d /var/www/cap_python/releases/20200503083622; then echo "Directory does not exist '/var/www/cap_python/releases/20200503083622'" 1>&2; false; fi
+ DEBUG [8807a666] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [d89c38fb] Running /usr/bin/env echo "12ff90942c080c14eeea582ffe8d17706ddfd060" > REVISION as deployer@192.168.127.131
+ DEBUG [d89c38fb] Command: cd /var/www/cap_python/releases/20200503083622 && /usr/bin/env echo "12ff90942c080c14eeea582ffe8d17706ddfd060" > REVISION
+  INFO [d89c38fb] Finished in 0.185 seconds with exit status 0 (successful).
+  INFO [c669e0bf] Running /usr/bin/env ln -s /var/www/cap_python/releases/20200503083622 /var/www/cap_python/releases/current as deployer@192.168.127.131
+ DEBUG [c669e0bf] Command: /usr/bin/env ln -s /var/www/cap_python/releases/20200503083622 /var/www/cap_python/releases/current
+  INFO [c669e0bf] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [920c0e0d] Running /usr/bin/env mv /var/www/cap_python/releases/current /var/www/cap_python as deployer@192.168.127.131
+ DEBUG [920c0e0d] Command: /usr/bin/env mv /var/www/cap_python/releases/current /var/www/cap_python
+  INFO [920c0e0d] Finished in 0.036 seconds with exit status 0 (successful).
+ DEBUG [91f7c5e0] Running /usr/bin/env ls -x /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [91f7c5e0] Command: /usr/bin/env ls -x /var/www/cap_python/releases
+ DEBUG [91f7c5e0] 	20200503083257	20200503083622
+ DEBUG [91f7c5e0] Finished in 0.043 seconds with exit status 0 (successful).
+ DEBUG [6dbc2804] Running if test ! -d /var/www/cap_python/releases; then echo "Directory does not exist '/var/www/cap_python/releases'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [6dbc2804] Command: if test ! -d /var/www/cap_python/releases; then echo "Directory does not exist '/var/www/cap_python/releases'" 1>&2; false; fi
+ DEBUG [6dbc2804] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [aa1eb3e9] Running /usr/bin/env echo "Branch master (at 12ff90942c080c14eeea582ffe8d17706ddfd060) deployed as release 20200503083622 by root" >> /var/www/cap_python/revisions.log as deployer@192.168.127.131
+ DEBUG [aa1eb3e9] Command: cd /var/www/cap_python/releases && /usr/bin/env echo "Branch master (at 12ff90942c080c14eeea582ffe8d17706ddfd060) deployed as release 20200503083622 by root" >> /var/www/cap_python/revisions.log
+  INFO [aa1eb3e9] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-05-03 16:39:50 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8fefaeca] Running /usr/bin/env mkdir -p /tmp as deployer@192.168.127.131
+ DEBUG [8fefaeca] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8fefaeca] Finished in 2.916 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cap_python-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cap_python-production-root.sh 100.0%
+  INFO [4fc485b3] Running /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh as deployer@192.168.127.131
+ DEBUG [4fc485b3] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh
+  INFO [4fc485b3] Finished in 0.180 seconds with exit status 0 (successful).
+  INFO [09678305] Running /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD as deployer@192.168.127.131
+ DEBUG [09678305] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD )
+ DEBUG [09678305] 	12ff90942c080c14eeea582ffe8d17706ddfd060	HEAD
+  INFO [09678305] Finished in 7.968 seconds with exit status 0 (successful).
+  INFO [efe202d5] Running /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [efe202d5] Command: /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases
+  INFO [efe202d5] Finished in 0.013 seconds with exit status 0 (successful).
+ DEBUG [b60b9b15] Running [ -f /var/www/cap_python/current/REVISION ] as deployer@192.168.127.131
+ DEBUG [b60b9b15] Command: [ -f /var/www/cap_python/current/REVISION ]
+ DEBUG [b60b9b15] Finished in 0.087 seconds with exit status 0 (successful).
+ DEBUG [6548cc22] Running /usr/bin/env cat /var/www/cap_python/current/REVISION 2>/dev/null as deployer@192.168.127.131
+ DEBUG [6548cc22] Command: /usr/bin/env cat /var/www/cap_python/current/REVISION 2>/dev/null
+ DEBUG [6548cc22] 	12ff90942c080c14eeea582ffe8d17706ddfd060
+ DEBUG [6548cc22] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [25a3ab01] Running [ -f /var/www/cap_python/repo/HEAD ] as deployer@192.168.127.131
+ DEBUG [25a3ab01] Command: [ -f /var/www/cap_python/repo/HEAD ]
+ DEBUG [25a3ab01] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/cap_python/repo
+ DEBUG [83b9de55] Running if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [83b9de55] Command: if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi
+ DEBUG [83b9de55] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [7d5d0159] Running /usr/bin/env git remote set-url origin https://github.com/wangxingMachine/Capistrano-python as deployer@192.168.127.131
+ DEBUG [7d5d0159] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git remote set-url origin https://github.com/wangxingMachine/Capistrano-python )
+  INFO [7d5d0159] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [fdd58511] Running /usr/bin/env git remote update --prune as deployer@192.168.127.131
+ DEBUG [fdd58511] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [fdd58511] 	正在获取 origin
+ DEBUG [fdd58511] 	
+  INFO [fdd58511] Finished in 1.818 seconds with exit status 0 (successful).
+ DEBUG [f5ea0b29] Running if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [f5ea0b29] Command: if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi
+ DEBUG [f5ea0b29] Finished in 1.631 seconds with exit status 0 (successful).
+  INFO [ae460dd9] Running /usr/bin/env mkdir -p /var/www/cap_python/releases/20200503084002 as deployer@192.168.127.131
+ DEBUG [ae460dd9] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env mkdir -p /var/www/cap_python/releases/20200503084002 )
+  INFO [ae460dd9] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [a40f8fbb] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/cap_python/releases/20200503084002 as deployer@192.168.127.131
+ DEBUG [a40f8fbb] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/cap_python/releases/20200503084002 )
+  INFO [a40f8fbb] Finished in 0.047 seconds with exit status 0 (successful).
+ DEBUG [f680bc7d] Running if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [f680bc7d] Command: if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi
+ DEBUG [f680bc7d] Finished in 0.042 seconds with exit status 0 (successful).
+ DEBUG [14360cd0] Running /usr/bin/env git rev-list --max-count=1 master as deployer@192.168.127.131
+ DEBUG [14360cd0] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [14360cd0] 	12ff90942c080c14eeea582ffe8d17706ddfd060
+ DEBUG [14360cd0] Finished in 0.050 seconds with exit status 0 (successful).
+ DEBUG [0dd24015] Running if test ! -d /var/www/cap_python/releases/20200503084002; then echo "Directory does not exist '/var/www/cap_python/releases/20200503084002'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [0dd24015] Command: if test ! -d /var/www/cap_python/releases/20200503084002; then echo "Directory does not exist '/var/www/cap_python/releases/20200503084002'" 1>&2; false; fi
+ DEBUG [0dd24015] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [15421eff] Running /usr/bin/env echo "12ff90942c080c14eeea582ffe8d17706ddfd060" > REVISION as deployer@192.168.127.131
+ DEBUG [15421eff] Command: cd /var/www/cap_python/releases/20200503084002 && /usr/bin/env echo "12ff90942c080c14eeea582ffe8d17706ddfd060" > REVISION
+  INFO [15421eff] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [c53c0326] Running /usr/bin/env ln -s /var/www/cap_python/releases/20200503084002 /var/www/cap_python/releases/current as deployer@192.168.127.131
+ DEBUG [c53c0326] Command: /usr/bin/env ln -s /var/www/cap_python/releases/20200503084002 /var/www/cap_python/releases/current
+  INFO [c53c0326] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [80626b40] Running /usr/bin/env mv /var/www/cap_python/releases/current /var/www/cap_python as deployer@192.168.127.131
+ DEBUG [80626b40] Command: /usr/bin/env mv /var/www/cap_python/releases/current /var/www/cap_python
+  INFO [80626b40] Finished in 0.047 seconds with exit status 0 (successful).
+ DEBUG [50f5c20a] Running /usr/bin/env ls -x /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [50f5c20a] Command: /usr/bin/env ls -x /var/www/cap_python/releases
+ DEBUG [50f5c20a] 	20200503083257	20200503083622	20200503084002
+ DEBUG [50f5c20a] Finished in 0.042 seconds with exit status 0 (successful).
+ DEBUG [de896b35] Running if test ! -d /var/www/cap_python/releases; then echo "Directory does not exist '/var/www/cap_python/releases'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [de896b35] Command: if test ! -d /var/www/cap_python/releases; then echo "Directory does not exist '/var/www/cap_python/releases'" 1>&2; false; fi
+ DEBUG [de896b35] Finished in 0.042 seconds with exit status 0 (successful).
+  INFO [45a2d7ac] Running /usr/bin/env echo "Branch master (at 12ff90942c080c14eeea582ffe8d17706ddfd060) deployed as release 20200503084002 by root" >> /var/www/cap_python/revisions.log as deployer@192.168.127.131
+ DEBUG [45a2d7ac] Command: cd /var/www/cap_python/releases && /usr/bin/env echo "Branch master (at 12ff90942c080c14eeea582ffe8d17706ddfd060) deployed as release 20200503084002 by root" >> /var/www/cap_python/revisions.log
+  INFO [45a2d7ac] Finished in 0.128 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-05-05 07:22:04 +0800 cap production deploy:rollback
+  INFO ---------------------------------------------------------------------------
+  INFO [463b0c95] Running /usr/bin/env mkdir -p /tmp as deployer@192.168.127.131
+ DEBUG [463b0c95] Command: /usr/bin/env mkdir -p /tmp
+  INFO [463b0c95] Finished in 0.512 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cap_python-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cap_python-production-root.sh 100.0%
+  INFO [a7a26e73] Running /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh as deployer@192.168.127.131
+ DEBUG [a7a26e73] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh
+  INFO [a7a26e73] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [964cbbf6] Running /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD as deployer@192.168.127.131
+ DEBUG [964cbbf6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD )
+ DEBUG [964cbbf6] 	12ff90942c080c14eeea582ffe8d17706ddfd060	HEAD
+  INFO [964cbbf6] Finished in 4.167 seconds with exit status 0 (successful).
+  INFO [0146d2dd] Running /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [0146d2dd] Command: /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases
+  INFO [0146d2dd] Finished in 0.455 seconds with exit status 0 (successful).
+ DEBUG [4083a671] Running [ -f /var/www/cap_python/current/REVISION ] as deployer@192.168.127.131
+ DEBUG [4083a671] Command: [ -f /var/www/cap_python/current/REVISION ]
+ DEBUG [4083a671] Finished in 0.053 seconds with exit status 0 (successful).
+ DEBUG [632bb326] Running /usr/bin/env cat /var/www/cap_python/current/REVISION 2>/dev/null as deployer@192.168.127.131
+ DEBUG [632bb326] Command: /usr/bin/env cat /var/www/cap_python/current/REVISION 2>/dev/null
+ DEBUG [632bb326] 	12ff90942c080c14eeea582ffe8d17706ddfd060
+ DEBUG [632bb326] Finished in 0.061 seconds with exit status 0 (successful).
+ DEBUG [5e320d3d] Running /usr/bin/env ls -xt /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [5e320d3d] Command: /usr/bin/env ls -xt /var/www/cap_python/releases
+ DEBUG [5e320d3d] 	20200503084002	20200503083622	20200503083257
+ DEBUG [5e320d3d] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [b9a11d0a] Running /usr/bin/env ln -s /var/www/cap_python/releases/20200503083622 /var/www/cap_python/releases/current as deployer@192.168.127.131
+ DEBUG [b9a11d0a] Command: /usr/bin/env ln -s /var/www/cap_python/releases/20200503083622 /var/www/cap_python/releases/current
+  INFO [b9a11d0a] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [f9bbed2f] Running /usr/bin/env mv /var/www/cap_python/releases/current /var/www/cap_python as deployer@192.168.127.131
+ DEBUG [f9bbed2f] Command: /usr/bin/env mv /var/www/cap_python/releases/current /var/www/cap_python
+  INFO [f9bbed2f] Finished in 0.041 seconds with exit status 0 (successful).
+ DEBUG [2a887f8d] Running /usr/bin/env ls -xt /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [2a887f8d] Command: /usr/bin/env ls -xt /var/www/cap_python/releases
+ DEBUG [2a887f8d] 	20200503084002	20200503083622	20200503083257
+ DEBUG [2a887f8d] Finished in 0.046 seconds with exit status 0 (successful).
+ DEBUG [1757f7e9] Running [ `readlink /var/www/cap_python/current` != /var/www/cap_python/releases/20200503084002 ] as deployer@192.168.127.131
+ DEBUG [1757f7e9] Command: [ `readlink /var/www/cap_python/current` != /var/www/cap_python/releases/20200503084002 ]
+ DEBUG [1757f7e9] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [566f2ae0] Running /usr/bin/env tar -czf /var/www/cap_python/rolled-back-release-20200503084002.tar.gz /var/www/cap_python/releases/20200503084002 as deployer@192.168.127.131
+ DEBUG [566f2ae0] Command: /usr/bin/env tar -czf /var/www/cap_python/rolled-back-release-20200503084002.tar.gz /var/www/cap_python/releases/20200503084002
+ DEBUG [566f2ae0] 	tar: 从成员名中删除开头的“/”
+  INFO [566f2ae0] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO [cb1761b9] Running /usr/bin/env rm -rf /var/www/cap_python/releases/20200503084002 as deployer@192.168.127.131
+ DEBUG [cb1761b9] Command: /usr/bin/env rm -rf /var/www/cap_python/releases/20200503084002
+  INFO [cb1761b9] Finished in 0.045 seconds with exit status 0 (successful).
+ DEBUG [3e273c8e] Running if test ! -d /var/www/cap_python/releases; then echo "Directory does not exist '/var/www/cap_python/releases'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [3e273c8e] Command: if test ! -d /var/www/cap_python/releases; then echo "Directory does not exist '/var/www/cap_python/releases'" 1>&2; false; fi
+ DEBUG [3e273c8e] Finished in 0.039 seconds with exit status 0 (successful).
+  INFO [9dbb706f] Running /usr/bin/env echo "root rolled back to release 20200503083622" >> /var/www/cap_python/revisions.log as deployer@192.168.127.131
+ DEBUG [9dbb706f] Command: cd /var/www/cap_python/releases && /usr/bin/env echo "root rolled back to release 20200503083622" >> /var/www/cap_python/revisions.log
+  INFO [9dbb706f] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-05-05 08:17:35 +0800 cap production deploy:rollback
+  INFO ---------------------------------------------------------------------------
+  INFO [055f40c2] Running /usr/bin/env mkdir -p /tmp as deployer@192.168.127.131
+ DEBUG [055f40c2] Command: /usr/bin/env mkdir -p /tmp
+  INFO [055f40c2] Finished in 0.285 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cap_python-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cap_python-production-root.sh 100.0%
+  INFO [952830fd] Running /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh as deployer@192.168.127.131
+ DEBUG [952830fd] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh
+  INFO [952830fd] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [1acf8b8a] Running /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD as deployer@192.168.127.131
+ DEBUG [1acf8b8a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD )
+ DEBUG [1acf8b8a] 	12ff90942c080c14eeea582ffe8d17706ddfd060	HEAD
+  INFO [1acf8b8a] Finished in 2.210 seconds with exit status 0 (successful).
+  INFO [aef96a93] Running /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [aef96a93] Command: /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases
+  INFO [aef96a93] Finished in 1.565 seconds with exit status 0 (successful).
+ DEBUG [c53c9e27] Running [ -f /var/www/cap_python/current/REVISION ] as deployer@192.168.127.131
+ DEBUG [c53c9e27] Command: [ -f /var/www/cap_python/current/REVISION ]
+ DEBUG [c53c9e27] Finished in 1.072 seconds with exit status 0 (successful).
+ DEBUG [6947942b] Running /usr/bin/env cat /var/www/cap_python/current/REVISION 2>/dev/null as deployer@192.168.127.131
+ DEBUG [6947942b] Command: /usr/bin/env cat /var/www/cap_python/current/REVISION 2>/dev/null
+ DEBUG [6947942b] 	12ff90942c080c14eeea582ffe8d17706ddfd060
+ DEBUG [6947942b] 	
+ DEBUG [6947942b] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [2c506b34] Running /usr/bin/env ls -xt /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [2c506b34] Command: /usr/bin/env ls -xt /var/www/cap_python/releases
+ DEBUG [2c506b34] 	20200503083622	20200503083257
+ DEBUG [2c506b34] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [90157a9e] Running /usr/bin/env ln -s /var/www/cap_python/releases/20200503083257 /var/www/cap_python/releases/current as deployer@192.168.127.131
+ DEBUG [90157a9e] Command: /usr/bin/env ln -s /var/www/cap_python/releases/20200503083257 /var/www/cap_python/releases/current
+  INFO [90157a9e] Finished in 0.041 seconds with exit status 0 (successful).
+  INFO [86e1c5b2] Running /usr/bin/env mv /var/www/cap_python/releases/current /var/www/cap_python as deployer@192.168.127.131
+ DEBUG [86e1c5b2] Command: /usr/bin/env mv /var/www/cap_python/releases/current /var/www/cap_python
+  INFO [86e1c5b2] Finished in 0.042 seconds with exit status 0 (successful).
+ DEBUG [0b368f54] Running /usr/bin/env ls -xt /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [0b368f54] Command: /usr/bin/env ls -xt /var/www/cap_python/releases
+ DEBUG [0b368f54] 	20200503083622	20200503083257
+ DEBUG [0b368f54] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [e6bd8410] Running [ `readlink /var/www/cap_python/current` != /var/www/cap_python/releases/20200503083622 ] as deployer@192.168.127.131
+ DEBUG [e6bd8410] Command: [ `readlink /var/www/cap_python/current` != /var/www/cap_python/releases/20200503083622 ]
+ DEBUG [e6bd8410] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [80be7732] Running /usr/bin/env tar -czf /var/www/cap_python/rolled-back-release-20200503083622.tar.gz /var/www/cap_python/releases/20200503083622 as deployer@192.168.127.131
+ DEBUG [80be7732] Command: /usr/bin/env tar -czf /var/www/cap_python/rolled-back-release-20200503083622.tar.gz /var/www/cap_python/releases/20200503083622
+ DEBUG [80be7732] 	tar: 从成员名中删除开头的“/”
+  INFO [80be7732] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [3c9b4a07] Running /usr/bin/env rm -rf /var/www/cap_python/releases/20200503083622 as deployer@192.168.127.131
+ DEBUG [3c9b4a07] Command: /usr/bin/env rm -rf /var/www/cap_python/releases/20200503083622
+  INFO [3c9b4a07] Finished in 0.041 seconds with exit status 0 (successful).
+ DEBUG [931be268] Running if test ! -d /var/www/cap_python/releases; then echo "Directory does not exist '/var/www/cap_python/releases'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [931be268] Command: if test ! -d /var/www/cap_python/releases; then echo "Directory does not exist '/var/www/cap_python/releases'" 1>&2; false; fi
+ DEBUG [931be268] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [f385500f] Running /usr/bin/env echo "root rolled back to release 20200503083257" >> /var/www/cap_python/revisions.log as deployer@192.168.127.131
+ DEBUG [f385500f] Command: cd /var/www/cap_python/releases && /usr/bin/env echo "root rolled back to release 20200503083257" >> /var/www/cap_python/revisions.log
+  INFO [f385500f] Finished in 0.053 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-05-05 08:18:01 +0800 cap production deploy:rollback
+  INFO ---------------------------------------------------------------------------
+  INFO [166ecf5f] Running /usr/bin/env mkdir -p /tmp as deployer@192.168.127.131
+ DEBUG [166ecf5f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [166ecf5f] Finished in 0.278 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cap_python-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cap_python-production-root.sh 100.0%
+  INFO [3df47a3b] Running /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh as deployer@192.168.127.131
+ DEBUG [3df47a3b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh
+  INFO [3df47a3b] Finished in 0.046 seconds with exit status 0 (successful).
+  INFO [92126ab6] Running /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD as deployer@192.168.127.131
+ DEBUG [92126ab6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD )
+ DEBUG [92126ab6] 	12ff90942c080c14eeea582ffe8d17706ddfd060	HEAD
+  INFO [92126ab6] Finished in 1.890 seconds with exit status 0 (successful).
+  INFO [026d33b5] Running /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [026d33b5] Command: /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases
+  INFO [026d33b5] Finished in 0.048 seconds with exit status 0 (successful).
+ DEBUG [838e3d48] Running [ -f /var/www/cap_python/current/REVISION ] as deployer@192.168.127.131
+ DEBUG [838e3d48] Command: [ -f /var/www/cap_python/current/REVISION ]
+ DEBUG [838e3d48] Finished in 0.058 seconds with exit status 1 (failed).
+ DEBUG [1b7f3234] Running /usr/bin/env ls -xt /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [1b7f3234] Command: /usr/bin/env ls -xt /var/www/cap_python/releases
+ DEBUG [1b7f3234] 	20200503083257
+ DEBUG [1b7f3234] Finished in 0.049 seconds with exit status 0 (successful).
+ ERROR There are no older releases to rollback to
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-05-05 08:18:18 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1b6b7abc] Running /usr/bin/env mkdir -p /tmp as deployer@192.168.127.131
+ DEBUG [1b6b7abc] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1b6b7abc] Finished in 5.177 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cap_python-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cap_python-production-root.sh 100.0%
+  INFO [cfc98a7a] Running /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh as deployer@192.168.127.131
+ DEBUG [cfc98a7a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh
+  INFO [cfc98a7a] Finished in 0.042 seconds with exit status 0 (successful).
+  INFO [1cf91b7d] Running /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD as deployer@192.168.127.131
+ DEBUG [1cf91b7d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD )
+ DEBUG [1cf91b7d] 	12ff90942c080c14eeea582ffe8d17706ddfd060	HEAD
+  INFO [1cf91b7d] Finished in 30.087 seconds with exit status 0 (successful).
+  INFO [ba5e0413] Running /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [ba5e0413] Command: /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases
+  INFO [ba5e0413] Finished in 2.301 seconds with exit status 0 (successful).
+ DEBUG [9a75f5ae] Running [ -f /var/www/cap_python/current/REVISION ] as deployer@192.168.127.131
+ DEBUG [9a75f5ae] Command: [ -f /var/www/cap_python/current/REVISION ]
+ DEBUG [9a75f5ae] Finished in 0.044 seconds with exit status 1 (failed).
+ DEBUG [31a27a4c] Running [ -f /var/www/cap_python/repo/HEAD ] as deployer@192.168.127.131
+ DEBUG [31a27a4c] Command: [ -f /var/www/cap_python/repo/HEAD ]
+ DEBUG [31a27a4c] Finished in 0.009 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/cap_python/repo
+ DEBUG [615df790] Running if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [615df790] Command: if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi
+ DEBUG [615df790] Finished in 0.061 seconds with exit status 0 (successful).
+  INFO [9c0137e2] Running /usr/bin/env git remote set-url origin https://github.com/wangxingMachine/Capistrano-python as deployer@192.168.127.131
+ DEBUG [9c0137e2] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git remote set-url origin https://github.com/wangxingMachine/Capistrano-python )
+  INFO [9c0137e2] Finished in 0.235 seconds with exit status 0 (successful).
+  INFO [e15005ee] Running /usr/bin/env git remote update --prune as deployer@192.168.127.131
+ DEBUG [e15005ee] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e15005ee] 	正在获取 origin
+ DEBUG [e15005ee] 	
+ DEBUG [e15005ee] 	fatal: unable to access 'https://github.com/wangxingMachine/Capistrano-python/': Could not resolve host: github.com
+ DEBUG [e15005ee] 	error: 不能获取 origin
+ DEBUG [e15005ee] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-05-05 08:19:29 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [40c8390f] Running /usr/bin/env mkdir -p /tmp as deployer@192.168.127.131
+ DEBUG [40c8390f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [40c8390f] Finished in 0.270 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-cap_python-production-root.sh 0.0%
+  INFO Uploading /tmp/git-ssh-cap_python-production-root.sh 100.0%
+  INFO [97a2a3b5] Running /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh as deployer@192.168.127.131
+ DEBUG [97a2a3b5] Command: /usr/bin/env chmod 700 /tmp/git-ssh-cap_python-production-root.sh
+  INFO [97a2a3b5] Finished in 0.045 seconds with exit status 0 (successful).
+  INFO [46e609bb] Running /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD as deployer@192.168.127.131
+ DEBUG [46e609bb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git ls-remote https://github.com/wangxingMachine/Capistrano-python HEAD )
+ DEBUG [46e609bb] 	12ff90942c080c14eeea582ffe8d17706ddfd060	HEAD
+  INFO [46e609bb] Finished in 1.541 seconds with exit status 0 (successful).
+  INFO [2436c043] Running /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [2436c043] Command: /usr/bin/env mkdir -p /var/www/cap_python/shared /var/www/cap_python/releases
+  INFO [2436c043] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [f3525c79] Running [ -f /var/www/cap_python/current/REVISION ] as deployer@192.168.127.131
+ DEBUG [f3525c79] Command: [ -f /var/www/cap_python/current/REVISION ]
+ DEBUG [f3525c79] Finished in 0.044 seconds with exit status 1 (failed).
+ DEBUG [e2662759] Running [ -f /var/www/cap_python/repo/HEAD ] as deployer@192.168.127.131
+ DEBUG [e2662759] Command: [ -f /var/www/cap_python/repo/HEAD ]
+ DEBUG [e2662759] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/cap_python/repo
+ DEBUG [3367483d] Running if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [3367483d] Command: if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi
+ DEBUG [3367483d] Finished in 0.042 seconds with exit status 0 (successful).
+  INFO [377fdb83] Running /usr/bin/env git remote set-url origin https://github.com/wangxingMachine/Capistrano-python as deployer@192.168.127.131
+ DEBUG [377fdb83] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git remote set-url origin https://github.com/wangxingMachine/Capistrano-python )
+  INFO [377fdb83] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [0a095139] Running /usr/bin/env git remote update --prune as deployer@192.168.127.131
+ DEBUG [0a095139] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [0a095139] 	正在获取 origin
+ DEBUG [0a095139] 	
+  INFO [0a095139] Finished in 2.754 seconds with exit status 0 (successful).
+ DEBUG [89457c6f] Running if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [89457c6f] Command: if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi
+ DEBUG [89457c6f] Finished in 0.043 seconds with exit status 0 (successful).
+  INFO [b8e1ab5c] Running /usr/bin/env mkdir -p /var/www/cap_python/releases/20200505001931 as deployer@192.168.127.131
+ DEBUG [b8e1ab5c] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env mkdir -p /var/www/cap_python/releases/20200505001931 )
+  INFO [b8e1ab5c] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [818f1e30] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/cap_python/releases/20200505001931 as deployer@192.168.127.131
+ DEBUG [818f1e30] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/cap_python/releases/20200505001931 )
+  INFO [818f1e30] Finished in 0.062 seconds with exit status 0 (successful).
+ DEBUG [ea8cc8ab] Running if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [ea8cc8ab] Command: if test ! -d /var/www/cap_python/repo; then echo "Directory does not exist '/var/www/cap_python/repo'" 1>&2; false; fi
+ DEBUG [ea8cc8ab] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [aae398ac] Running /usr/bin/env git rev-list --max-count=1 master as deployer@192.168.127.131
+ DEBUG [aae398ac] Command: cd /var/www/cap_python/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-cap_python-production-root.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [aae398ac] 	12ff90942c080c14eeea582ffe8d17706ddfd060
+ DEBUG [aae398ac] Finished in 0.048 seconds with exit status 0 (successful).
+ DEBUG [bd61e9c4] Running if test ! -d /var/www/cap_python/releases/20200505001931; then echo "Directory does not exist '/var/www/cap_python/releases/20200505001931'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [bd61e9c4] Command: if test ! -d /var/www/cap_python/releases/20200505001931; then echo "Directory does not exist '/var/www/cap_python/releases/20200505001931'" 1>&2; false; fi
+ DEBUG [bd61e9c4] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [d51ad210] Running /usr/bin/env echo "12ff90942c080c14eeea582ffe8d17706ddfd060" > REVISION as deployer@192.168.127.131
+ DEBUG [d51ad210] Command: cd /var/www/cap_python/releases/20200505001931 && /usr/bin/env echo "12ff90942c080c14eeea582ffe8d17706ddfd060" > REVISION
+  INFO [d51ad210] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [1d584e74] Running /usr/bin/env ln -s /var/www/cap_python/releases/20200505001931 /var/www/cap_python/releases/current as deployer@192.168.127.131
+ DEBUG [1d584e74] Command: /usr/bin/env ln -s /var/www/cap_python/releases/20200505001931 /var/www/cap_python/releases/current
+  INFO [1d584e74] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [bcee8eff] Running /usr/bin/env mv /var/www/cap_python/releases/current /var/www/cap_python as deployer@192.168.127.131
+ DEBUG [bcee8eff] Command: /usr/bin/env mv /var/www/cap_python/releases/current /var/www/cap_python
+  INFO [bcee8eff] Finished in 0.042 seconds with exit status 0 (successful).
+ DEBUG [ad38cfa7] Running /usr/bin/env ls -x /var/www/cap_python/releases as deployer@192.168.127.131
+ DEBUG [ad38cfa7] Command: /usr/bin/env ls -x /var/www/cap_python/releases
+ DEBUG [ad38cfa7] 	20200503083257	20200505001931
+ DEBUG [ad38cfa7] Finished in 0.044 seconds with exit status 0 (successful).
+ DEBUG [571fc63f] Running if test ! -d /var/www/cap_python/releases; then echo "Directory does not exist '/var/www/cap_python/releases'" 1>&2; false; fi as deployer@192.168.127.131
+ DEBUG [571fc63f] Command: if test ! -d /var/www/cap_python/releases; then echo "Directory does not exist '/var/www/cap_python/releases'" 1>&2; false; fi
+ DEBUG [571fc63f] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [fac753d3] Running /usr/bin/env echo "Branch master (at 12ff90942c080c14eeea582ffe8d17706ddfd060) deployed as release 20200505001931 by root" >> /var/www/cap_python/revisions.log as deployer@192.168.127.131
+ DEBUG [fac753d3] Command: cd /var/www/cap_python/releases && /usr/bin/env echo "Branch master (at 12ff90942c080c14eeea582ffe8d17706ddfd060) deployed as release 20200505001931 by root" >> /var/www/cap_python/revisions.log
+  INFO [fac753d3] Finished in 0.044 seconds with exit status 0 (successful).
